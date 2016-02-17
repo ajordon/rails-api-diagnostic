@@ -44,7 +44,7 @@ A user action fires a `GET` request for `person/1`. Explain in detail each step
 required for data to be returned to the client. (bullet points or ordered list)
 
 ```bash
-// The controller gets the request from the browser and fomulates the // request to the model layer. The model retrieves the request and   retrieves it from the database and returns it back to the controller which then sends the data to the browser
+// The controller gets the request from the webserver and fomulates the request to the model layer. The model retrieves the request and   queries the database and returns the data back to the controller which then sends the data to the browser
 ```
 
 What is the command to generate a new rails-api app?
