@@ -6,72 +6,76 @@ Place your responses inside the fenced code-blocks where indicated by comments.
 What is the purpose of a backend?
 
 ```bash
-// your response here
+// The purpose of the backend is to store and maintain the data needed
+// for the frontend
 ```
 
 Which layer in the MVC pattern is used by the controller to fetch data?
 
 ```bash
-// your response here
+// The model layer
 ```
 
 Which layer in the MVC pattern communicates with the model?
 
 ```bash
-// your response here
+// The controller is the only layer to communicate with the model
 ```
 
 Why don't we use views in our interpretation of the MVC pattern?
 
 ```bash
-// your response here
+// Because we are building single page applications
 ```
 
 What does C.R.U.D stand for?
 
 ```bash
-// your response here
+// Create, Read, Updae, Delete
 ```
 
 In which part of the MVC pattern can we find C.R.U.D actions?
 
 ```bash
-// your response here
+// The controller
 ```
 
 A user action fires a `GET` request for `person/1`. Explain in detail each step
 required for data to be returned to the client. (bullet points or ordered list)
 
 ```bash
-// your response here
+// The controller gets the request from the browser and fomulates the // request to the model layer. The model retrieves the request and   retrieves it from the database and returns it back to the controller which then sends the data to the browser
 ```
 
 What is the command to generate a new rails-api app?
 
 ```bash
-// your response here
+// rails-api new "app_name"
 ```
 
 What is the command to start an instance of a rails server?
 
 ```bash
-// your response here
+// rails s || rails server
 ```
 
 What are the commands to drop, create and migrate a database? (3 bullet points)
 
 ```bash
-// your response here
+// rake db:drop
+rake db:create
+rake db:migrate
 ```
 
 What is the command to scaffold a pet with a name and an age?
 
 ```bash
-// your response here
+// rails-api g scaffold pet name:string age:int
 ```
 
 List two advantages of using serializers? (2 bullet points)
 
 ```bash
-// your response here
+// 1) It ensures uniqueness between rows
+2) Easy to retieve data
 ```
